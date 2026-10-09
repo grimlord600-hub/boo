@@ -10,8 +10,8 @@ export const FIREBASE_SECURE_TOKEN_BASE =
 
 export const DEFAULT_APP_VERSION = "1.13.140";
 export const DEFAULT_CONTINUE_URL = "https://boo.dating";
-export const DEFAULT_DEVICE_ID = "da35c542c8ceab17";
-export const DEFAULT_APPSFLYER_ID = "1791541594977-7499932426504586083";
+export const DEFAULT_DEVICE_ID = "";
+export const DEFAULT_APPSFLYER_ID = "";
 
 export const ANDROID_PACKAGE = "enterprises.dating.boo";
 export const ANDROID_CERT = "B1E48B78E468DBEEF275C6807802356C0DD03B67";
