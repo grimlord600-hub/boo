@@ -18,6 +18,7 @@
     "build": "tsup",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "start": "node scripts/run.mjs",
+    "likes": "node examples/daily-likes.mjs",
     "prepublishOnly": "npm run build"
   },
   "engines": {

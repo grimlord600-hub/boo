@@ -118,6 +118,16 @@ await client.request("GET", "/v1/notification");
 | `firebaseApiKey` | email-link key | Firebase Web API key |
 | `firebaseApiKeyCapture` | APK capture key | Fallback for sign-in |
 
+## Daily likes example
+
+`examples/daily-likes.mjs` loads `.boo-session.json`, refreshes the Firebase token, sets dating/friends preferences, then likes profiles from daily and interest feeds. It skips ids it already saw and stops after two fetches with no new profiles.
+
+```bash
+npm run build
+node examples/daily-likes.mjs
+node examples/daily-likes.mjs --max 5 --delay 2 --gender female --interest Travel
+```
+
 ## Scripts
 
 ```bash
