@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.boo-session.json
+*.log
+*.har
+.env
+.env.*
